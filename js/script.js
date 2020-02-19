@@ -71,7 +71,7 @@ function priceCalculation(elem) {
     options.forEach(i => {
         if (typeof DATA[i] === 'number') {
             if (i === 'sendOrder') {
-                result += data[i]
+                result += data[i];
             } else {
                 result += DATA.price[index] * DATA[i] / 100;
             } 
